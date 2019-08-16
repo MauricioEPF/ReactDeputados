@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Deputados</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <style>
+      #input {
+    width: 400px;
+    border-radius: 50px;
+    margin: 10px
+    }
+
+    #card{
+        background-color: white;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    #img {
+        width: 100px;
+        height: auto;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    #nota {
+        color: #ff0000;
+    }
+
+    .App {
+        background-color: #A9A9A9;
+    }
+    #Hearder {
+    background-color: #006400;
+    padding: 10px 100px;
+    color: #ffffff;
+    }
+
+    .lista_amarela {
+        background-color: yellow;
+        height: 10px;
+    }
+    #texto {
+      color: #A9A9A9;
+    }
+    </style>
+  </head>
+  <body style="background-color: #A9A9A9" onload="getDeputado()">
+    <div class="row">
+        <div class="col-md-12 text-center" id="Hearder">
+          <h2 id="texto">Deputados</h2>
+        </div>
+        <div class="col-md-12 lista_amarela"></div>
+      </div>
+    <div id="template"></div>
+    
+  </body>
+  <script src="./components/deputados.js"></script>
+</html>
